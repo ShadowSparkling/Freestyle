@@ -1,0 +1,36 @@
+*{
+    margin: 0px;   
+    padding: 0px;
+}
+:root{
+    --green: rgb(0, 255 , 0);
+    --backcol: rgb(255,255,0);
+}
+.container{
+    background-color: var(--backcol);
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+a{  font-size: 20px;
+    font-family: cursive;
+    color: var(--green);
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 35px;
+    text-decoration: none;
+    border: 5px solid var(--green);
+    background-color: var(--backcol);
+    letter-spacing: 3px;
+}
+
+a:hover{
+    color: var(--backcol);
+    background: rgb(1, 255, 22);
+    box-shadow:  10px 10px 50px  pink, -10px -10px 50px  pink;
+}
+
